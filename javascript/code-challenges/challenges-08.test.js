@@ -131,11 +131,11 @@ const isCapitalized = (str) => {
   let newArr = [];
 
   arr.forEach( (value, i) => {
-    let check = /\b[A-Z]/g;
+    let check = /\b[A-Z].*?\b/g;
     let check2 = /\W$/;
 
     if (check.test(value) === true) {
-      if (check2.test(value) === true) {
+      while (check2.test(value) === true) {
         value = value.substring(0, value.length -1);
       }
       newArr.push(value);
@@ -154,6 +154,15 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
+  let newArr = [];
+  arr.forEach( (value, i) => {
+    let check = /\b[A-J]/g;
+    let check2 = /\b[K-Z]/g;
+    if (check.test(value) === true && check2.test(value) === false) {
+      newArr.push(value);
+    }
+  });
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
