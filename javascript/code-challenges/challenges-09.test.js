@@ -162,7 +162,18 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
+  let check;
+  Object.values(arr).forEach(value => {
+    if (value.name === character) {
+      if (value.children !== undefined) {
+        check = true;
+      } else {
+        check = false;
+      }
+    }
+  });
 
+  return check;
 };
 
 /* ------------------------------------------------------------------------------------------------
