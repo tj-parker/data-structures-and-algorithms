@@ -24,4 +24,5 @@ To run your tests
 
 ### Table of Contents
 
-- [Challenge README](/javascript/array-reverse/README.md)
+- [Challenge 01 README](/javascript/array-reverse/README.md)
+- [Challenge 02 README](/javascript/array-insert-shift/README.md)
