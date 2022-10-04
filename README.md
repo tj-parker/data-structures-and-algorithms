@@ -30,3 +30,4 @@ To run your tests
 - [Challenge 05-07 Linked Lists](./javascript/linked-list/index.js)
 - [Challenge 08 README](./javascript/linked-list/README.md)
 - [Challenge 10](./javascript/stack-and-queue/index.js)
+- [Challenge 11](./javascript/stack-queue-psuedo/README.md)
