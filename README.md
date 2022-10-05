@@ -31,3 +31,4 @@ To run your tests
 - [Challenge 08 README](./javascript/linked-list/README.md)
 - [Challenge 10](./javascript/stack-and-queue/index.js)
 - [Challenge 11](./javascript/stack-queue-psuedo/README.md)
+- [Challenge 12](./javascript/stack-queue-animal-shelter/README.md)
