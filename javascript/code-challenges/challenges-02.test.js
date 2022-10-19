@@ -105,10 +105,12 @@ For example: charCode(['h','i']) returns [104, 105].
 
 const charCode = (arr) => {
   // Solution code here...
+
   let newArr = arr.map( (value, i) => {
     return value.charCodeAt(i);
   });
   return newArr;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
